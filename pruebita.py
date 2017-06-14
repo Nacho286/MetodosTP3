@@ -26,3 +26,28 @@ plt.legend()
 plt.show()
 
 
+# import numpy as np
+# from scipy.optimize import curve_fit
+# import matplotlib.pyplot as plt
+
+# #Funcion a fittear
+# import numpy as np
+# import matplotlib.pyplot as plt
+# from scipy.optimize import curve_fit
+
+# def fitFunc(x, a, b, c, d):
+#     return a + b*x[0] + c*x[1] + d*x[0]*x[1]
+
+# x_3d = np.array([[1,2,3,4,6],[4,5,6,7,8]])
+
+
+# popt, pcov = curve_fit(fitFunc, x_3d, x_3d[1,:], p0=None)
+
+# plt.plot(np.array(list(range(5))),x_3d[1,:], 'b-', label='data')
+
+# #plt.plot(np.array(list(range(5))), fitFunc(x_3d, *popt), 'r-', label='fit')
+# plt.xlabel('x')
+# plt.ylabel('y')
+# plt.legend()
+# plt.show()
+
